@@ -30,14 +30,19 @@ public class Main {
 
         Gate gate1 = new Gate(new BaseModel(1), "G1");
         Gate gate2 = new Gate(new BaseModel(2), "G2");
-
+        Map<Integer,Gate> gateMap = new HashMap<>(){{
+            put(gate1.getBaseModel().getId(), gate1);
+            put(gate2.getBaseModel().getId(),gate2);
+        }};
         ParkingLot parkingLot = new ParkingLot(new BaseModel(1),
-                Arrays.asList(floor1,floor2), Arrays.git(gate1,gate2));
+                Arrays.asList(floor1,floor2), Arrays.asList(gate1,gate2));
+        Map<Integer, ParkingLot> parkingLotMap = new HashMap<>(){{
+            put(parkingLot.getBaseModel().getId(), parkingLot);
+        }};
 
-
-        GateRepository gateRepository = new GateRepository();
+        GateRepository gateRepository = new GateRepository(gateMap);
         TicketRepository ticketRepository = new TicketRepository();
-        ParkingLotRepository parkingLotRepository = new ParkingLotRepository();
+        ParkingLotRepository parkingLotRepository = new ParkingLotRepository(parkingLotMap);
 
         GateService gateService = new GateService(gateRepository);
         SpotAssignmentStrategy spotAssignmentStrategy = new NearestSpotAssignmentStrategy(parkingLotRepository);

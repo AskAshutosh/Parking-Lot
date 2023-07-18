@@ -2,8 +2,10 @@ package Models;
 
 public class Gate {
     private BaseModel baseModel;
-    private String getName;
-    public Gate(BaseModel baseModel, String name) {
+    private String gateName;
+    public Gate(BaseModel baseModel, String gateName) {
+        this.baseModel = baseModel;
+        this.gateName = gateName;
     }
 
     public BaseModel getBaseModel() {
@@ -11,7 +13,7 @@ public class Gate {
     }
 
     public String getGetName() {
-        return getName;
+        return gateName;
     }
 
 }

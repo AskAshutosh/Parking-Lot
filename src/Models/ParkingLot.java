@@ -5,7 +5,7 @@ import java.util.List;
 public class ParkingLot {
     private BaseModel baseModel;
     private List<Floor> floorList;
-    private List<EntryGate> entryGateList;
+    private List<Gate> entryGateList;
     private List<ExitGate> exitGateList;
 
     public BaseModel getBaseModel() {
@@ -16,7 +16,7 @@ public class ParkingLot {
         return floorList;
     }
 
-    public List<EntryGate> getEntryGateList() {
+    public List<Gate> getEntryGateList() {
         return entryGateList;
     }
 
@@ -24,7 +24,7 @@ public class ParkingLot {
         return exitGateList;
     }
 
-    public ParkingLot(BaseModel baseModel, List<Floor> floorList, List<EntryGate> entryGateList) {
+    public ParkingLot(BaseModel baseModel, List<Floor> floorList, List<Gate> entryGateList) {
         this.baseModel = baseModel;
         this.floorList = floorList;
         this.entryGateList = entryGateList;

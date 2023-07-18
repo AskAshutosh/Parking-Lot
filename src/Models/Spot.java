@@ -18,8 +18,8 @@ public class Spot {
         return baseModel;
     }
 
-    public String getSpotId() {
-        return spotId;
+    public String spotName() {
+        return spotName;
     }
 
     public SpotStatus getSpotStatus() {
@@ -38,7 +38,7 @@ public class Spot {
     public String toString() {
         return "Spot{" +
                 "baseModel=" + baseModel +
-                ", spotId='" + spotId + '\'' +
+                ", spotId='" + spotName + '\'' +
                 ", spotStatus=" + spotStatus +
                 ", vehicle=" + vehicle +
                 ", supportedVehicleType=" + supportedVehicleType +
