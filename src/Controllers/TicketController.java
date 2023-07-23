@@ -3,8 +3,11 @@ package Controllers;
 import CustomExceptions.GateNotFoundException;
 import CustomExceptions.NoParkingSpotFoundException;
 import CustomExceptions.ParkingLotDoesntExist;
+import DTO.GenerateBillRequestDTO;
 import DTO.GenerateTicketRequestDTO;
+import Models.Bill;
 import Models.Ticket;
+import Services.BillService;
 import Services.TicketService;
 
 public class TicketController {

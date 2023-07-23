@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="77838275-ebe6-4603-bc78-82887846590c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Gate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/ParkingLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Spot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Spot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ParkingLotRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ParkingLotRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/TicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/TicketService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +50,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="DTO" />
+      <recent name="Models" />
       <recent name="CustomExceptions" />
       <recent name="Repository" />
       <recent name="Services" />
-      <recent name="Strategy.SpotAssignment" />
-      <recent name="DTO" />
     </key>
   </component>
   <component name="RunManager">
@@ -85,7 +82,9 @@
       <workItem from="1689253314777" duration="14792000" />
       <workItem from="1689438618918" duration="2859000" />
       <workItem from="1689494931369" duration="2898000" />
-      <workItem from="1689688551312" duration="1239000" />
+      <workItem from="1689688551312" duration="3445000" />
+      <workItem from="1690034506249" duration="2006000" />
+      <workItem from="1690112363743" duration="2980000" />
     </task>
     <servers />
   </component>

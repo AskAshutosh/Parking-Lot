@@ -38,6 +38,7 @@ public class TicketService {
         } catch (Exception e) {
             throw e;
         }
+
         Date entryTime = new Date();
         Ticket ticket = ticketRepository.createTicket(vehicleNumber, spot, entryTime);
         System.out.println("ticket: "+ticket);
